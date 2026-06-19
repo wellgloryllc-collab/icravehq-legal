@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support — iCrave</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="favicon.png" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — iCrave</title>
+<meta name="description" content="iCrave Support. Get help or contact our team.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#000;--surface:#111;--border:#222;--or:#F15A22;--text:#FFF;--muted:#AAA;--dim:#666}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;min-height:100vh;line-height:1.7}
+header{width:100%;border-bottom:1px solid var(--border);padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center}
+.header-brand{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:1.3rem;text-decoration:none}
+.header-brand .hi{color:var(--or)}
+.header-brand .hc{color:var(--text)}
+.content{max-width:640px;margin:0 auto;padding:2.5rem 1.5rem 3rem}
+.page-title{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:1.6rem;color:var(--text);margin-bottom:0.75rem}
+.intro{font-size:0.95rem;color:var(--muted);margin-bottom:2rem;line-height:1.8}
+h2{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:1.1rem;color:var(--or);margin:2rem 0 0.75rem;padding-top:0.5rem}
+h3{font-size:0.9rem;font-weight:600;color:var(--text);margin:1.25rem 0 0.5rem}
+p{font-size:0.88rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.8}
+a{color:var(--or);text-decoration:none}
+a:hover{text-decoration:underline}
+.email-box{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:0.75rem 1.5rem;margin-bottom:1.5rem}
+.email-box a{font-size:1rem;font-weight:600}
+footer{border-top:1px solid var(--border);padding:1.5rem;text-align:center}
+.footer-links{display:flex;gap:1.5rem;justify-content:center;margin-bottom:0.5rem}
+.footer-links a{font-size:0.75rem;color:var(--dim);text-decoration:none;transition:color 0.2s}
+.footer-links a:hover{color:var(--or)}
+.footer-copy{font-size:0.65rem;color:#444}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a class="wordmark" href="/">iCrave</a>
-    </header>
 
-    <main>
-      <h1>Support</h1>
+<header>
+  <a href="/" class="header-brand"><span class="hi">i</span><span class="hc">Crave</span></a>
+</header>
 
-      <p>We're a small team and we read every message. If you're having trouble with the app, have a question, or want to report an issue — reach out and we'll get back to you as soon as we can.</p>
+<main class="content">
 
-      <div class="section">
-        <h2>Contact Us</h2>
-        <p>Email: <a class="support-email" href="mailto:support@icravehq.com">support@icravehq.com</a></p>
-      </div>
+<h1 class="page-title">Support</h1>
 
-      <div class="section">
-        <h2>Common Questions</h2>
+<p class="intro">We&rsquo;re a small team and we read every message. If you&rsquo;re having trouble with the app, have a question, or want to report an issue &mdash; reach out and we&rsquo;ll get back to you as soon as we can.</p>
 
-        <h3>How do I delete my account?</h3>
-        <p>Go to your Profile, tap the settings icon, and select "Delete Account." This permanently removes your account and all associated data. You can also email us and we'll handle it manually.</p>
+<h2>Contact Us</h2>
+<div class="email-box">
+  <a href="mailto:support@icravehq.com">support@icravehq.com</a>
+</div>
 
-        <h3>A dish or restaurant is missing or has incorrect info.</h3>
-        <p>You can add missing dishes directly in the app. For restaurant address corrections or other data issues, email us with the details and we'll fix it.</p>
+<h2>Common Questions</h2>
 
-        <h3>My content was removed or my account was restricted.</h3>
-        <p>iCrave moderates all user-submitted content to keep the community useful and respectful. If you believe your content was removed in error, email us and we'll review it.</p>
+<h3>How do I delete my account?</h3>
+<p>Go to your Profile, tap the settings icon, and select &ldquo;Delete Account.&rdquo; This permanently removes your account and all associated data. You can also email us and we&rsquo;ll handle it manually.</p>
 
-        <h3>The app isn't working as expected.</h3>
-        <p>Try closing and reopening the app. If the issue persists, email us with a description of what happened and your device type (iPhone/Android) and OS version.</p>
-      </div>
-    </main>
+<h3>A dish or restaurant is missing or has incorrect info.</h3>
+<p>You can add missing dishes directly in the app. For restaurant address corrections or other data issues, email us with the details and we&rsquo;ll fix it.</p>
 
-    <footer>
-      <span>&copy; 2026 Wellglory LLC. All rights reserved.</span>
-      <div class="footer-links">
-        <a href="/">Home</a>
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
-      </div>
-    </footer>
+<h3>My content was removed or my account was restricted.</h3>
+<p>iCrave moderates all user-submitted content to keep the community useful and respectful. If you believe your content was removed in error, email us and we&rsquo;ll review it.</p>
+
+<h3>The app isn&rsquo;t working as expected.</h3>
+<p>Try closing and reopening the app. If the issue persists, email us with a description of what happened and your device type (iPhone/Android) and OS version.</p>
+
+<p>&copy; 2026 Wellglory LLC. All rights reserved.</p>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+    <a href="/support">Support</a>
   </div>
+  <div class="footer-copy">&copy; 2026 Wellglory LLC</div>
+</footer>
+
 </body>
 </html>
