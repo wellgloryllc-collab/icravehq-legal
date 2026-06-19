@@ -1,120 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — iCrave</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="favicon.png" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — iCrave</title>
+<meta name="description" content="iCrave Privacy Policy. How we collect, use, and protect your data.">
+<link rel="icon" type="image/png" href="app-icon-1024.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#000;
+  --surface:#111;
+  --border:#222;
+  --or:#F15A22;
+  --text:#FFF;
+  --muted:#AAA;
+  --dim:#666;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;min-height:100vh;line-height:1.7}
+
+header{width:100%;border-bottom:1px solid var(--border);padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center}
+.header-brand{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:1.3rem;text-decoration:none}
+.header-brand .hi{color:var(--or)}
+.header-brand .hc{color:var(--text)}
+
+.content{max-width:640px;margin:0 auto;padding:2.5rem 1.5rem 3rem}
+
+.page-title{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:1.6rem;color:var(--text);margin-bottom:0.25rem}
+.page-updated{font-size:0.8rem;color:var(--dim);margin-bottom:2rem}
+
+.intro{font-size:0.95rem;color:var(--muted);margin-bottom:2rem;line-height:1.8}
+
+h2{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:1.1rem;color:var(--or);margin:2rem 0 0.75rem;padding-top:0.5rem}
+
+h3{font-size:0.9rem;font-weight:600;color:var(--text);margin:1.25rem 0 0.5rem}
+
+p{font-size:0.88rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.8}
+
+ul{margin:0.5rem 0 1rem 1.25rem;list-style:disc}
+ul li{font-size:0.88rem;color:var(--muted);margin-bottom:0.4rem;line-height:1.7}
+
+footer{border-top:1px solid var(--border);padding:1.5rem;text-align:center}
+.footer-links{display:flex;gap:1.5rem;justify-content:center;margin-bottom:0.5rem}
+.footer-links a{font-size:0.75rem;color:var(--dim);text-decoration:none;transition:color 0.2s}
+.footer-links a:hover{color:var(--or)}
+.footer-copy{font-size:0.65rem;color:#444}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a class="wordmark" href="/">iCrave</a>
-    </header>
 
-    <main>
-      <h1>Privacy Policy</h1>
-      <p class="meta">Last updated: April 2026</p>
+<header>
+  <a href="/" class="header-brand"><span class="hi">i</span><span class="hc">Crave</span></a>
+</header>
 
-      <p>iCrave ("the App") is a dish-first food discovery platform that helps users find specific dishes, view ratings, and discover restaurants across multiple US cities. This policy explains how we handle your data.</p>
+<main class="content">
 
-      <div class="section">
-        <h2>Information We Collect</h2>
-        <p>iCrave collects limited information to provide core app functionality.</p>
+<h1 class="page-title">iCrave Privacy Policy</h1>
+<p class="page-updated">Last updated: June 2026</p>
 
-        <h3>Account Information</h3>
-        <p>If you create an account (email, Google Sign-In, or Apple Sign-In), we store your email address, display name, and account creation date. You may browse the App without an account using anonymous access, in which case no personal information is collected.</p>
+<p class="intro">iCrave (&ldquo;the App&rdquo;) is a dish-first food discovery platform that helps users find specific dishes, view ratings, and discover restaurants across multiple US cities. This policy explains how we handle your data.</p>
 
-        <h3>User-Generated Content</h3>
-        <p>When you submit ratings, comments, dish photos, or add new dishes, this content is stored on our servers (Firebase/Google Cloud) and associated with your user account. Comments are subject to review before being publicly visible.</p>
+<h2>Information We Collect</h2>
+<p>iCrave collects limited information to provide core app functionality.</p>
 
-        <h3>Behavioral Data</h3>
-        <p>The App logs anonymized usage events including dish searches, result taps, dish views, order link taps, and rating submissions. These events are stored in our database and used solely to improve the App experience. No data is sold to third parties.</p>
+<h3>Account Information</h3>
+<p>If you create an account (email, Google Sign-In, or Apple Sign-In), we store your email address, display name, and account creation date. You may browse the App without an account using anonymous access, in which case no personal account information is collected.</p>
 
-        <h3>Location Data</h3>
-        <p>The App requests GPS location access to detect your city and show relevant local dishes. Your precise location is used only for city detection and is not stored on our servers. You may manually select a city instead.</p>
+<h3>User-Generated Content</h3>
+<p>When you submit ratings, comments, dish photos, or add new dishes, this content is stored on our servers (Firebase / Google Cloud) and associated with your account. Photos are processed to remove embedded location metadata (EXIF GPS data) before upload, so your photos do not carry your location. Comments and other contributions may be reviewed before becoming publicly visible.</p>
 
-        <h3>Device Information</h3>
-        <p>Firebase Analytics collects standard device and usage metrics (device type, OS version, session duration). This data is anonymized and used for internal product improvement only.</p>
-      </div>
+<h3>Usage (Behavioral) Data</h3>
+<p>The App logs usage events such as dish searches, result taps, dish views, order-link taps, and rating submissions. In our own first-party records, these events are associated with your account &mdash; or recorded as &ldquo;anonymous&rdquo; if you are not signed in &mdash; and are used solely to operate and improve the App. A copy of these events is also sent to Google Analytics for Firebase (see Analytics &amp; Device Information below), where it is pseudonymous: tied to an app-instance identifier, not to your account. We do not sell this data, and it is never used for advertising.</p>
 
-      <div class="section">
-        <h2>How We Use Your Data</h2>
-        <p>All data collected is used exclusively to operate and improve the App. Specifically:</p>
-        <ul>
-          <li>Account information is used to manage your profile and associate your contributions (ratings, comments, dishes) with your account.</li>
-          <li>User-generated content is displayed within the App to help other users discover dishes.</li>
-          <li>Behavioral data is analyzed in aggregate to understand usage patterns and improve the product.</li>
-          <li>Location data is used to show dishes in your city.</li>
-        </ul>
-      </div>
+<h3>Location Data</h3>
+<p>The App uses approximate, city-level location to detect your city and show relevant local dishes. It requests only approximate (coarse) location &mdash; not precise GPS. Your location is used in the moment to determine your city and is not stored on our servers. You may also select a city manually instead of sharing location.</p>
 
-      <div class="section">
-        <h2>Data Storage and Security</h2>
-        <p>All data is stored on Google Firebase infrastructure (Firestore, Firebase Storage, Firebase Auth) hosted in the United States. Firebase App Check is enabled to prevent unauthorized access. Firestore and Storage security rules restrict data access to authorized operations only. All data transmission uses HTTPS encryption.</p>
-      </div>
+<h3>Analytics &amp; Device Information</h3>
+<p>We use Google Analytics for Firebase (GA4) to understand how the App is used &mdash; for example, device type, OS version, and engagement &mdash; so we can improve it. Our analytics are configured to be advertising-free:</p>
+<ul>
+  <li>No advertising identifiers are collected (no Apple IDFA, no Android Advertising ID).</li>
+  <li>No ad personalization, ad measurement, or cross-app / cross-site tracking.</li>
+  <li>Google Signals is disabled.</li>
+  <li>Analytics are pseudonymous, tied to an app-instance identifier rather than your account.</li>
+</ul>
+<p>Because we do no advertising tracking, the App does not present an App Tracking Transparency prompt on iOS.</p>
 
-      <div class="section">
-        <h2>Third-Party Services</h2>
-        <p>iCrave uses the following third-party services:</p>
-        <ul>
-          <li><strong>Firebase Authentication</strong> — for account management</li>
-          <li><strong>Firebase Firestore</strong> — for data storage</li>
-          <li><strong>Firebase Storage</strong> — for image storage</li>
-          <li><strong>Firebase Analytics</strong> — for anonymized usage metrics</li>
-          <li><strong>Google Cloud Vision</strong> — for automated image moderation (user-uploaded photos are scanned for inappropriate content)</li>
-          <li><strong>Sentry</strong> — for crash reporting and error monitoring</li>
-          <li><strong>Google Play / Apple App Store</strong> — for app distribution</li>
-        </ul>
-        <p>No advertising networks or ad SDKs are used. No user data is sold to or shared with advertisers.</p>
-      </div>
+<h2>How We Use Your Data</h2>
+<p>All data collected is used exclusively to operate and improve the App. Specifically:</p>
+<ul>
+  <li>Account information is used to manage your profile and associate your contributions (ratings, comments, dishes) with your account.</li>
+  <li>User-generated content is displayed within the App to help other users discover dishes.</li>
+  <li>Usage data is analyzed in aggregate to understand usage patterns and improve the product.</li>
+  <li>Approximate location is used to show dishes in your city.</li>
+</ul>
 
-      <div class="section">
-        <h2>Order Links</h2>
-        <p>The App provides links to third-party services (UberEats, DoorDash, OpenTable) for ordering or reservations. Tapping these links opens the respective third-party app or website. iCrave does not process orders or reservations and is not responsible for third-party privacy practices.</p>
-      </div>
+<h2>Data Storage and Security</h2>
+<p>All data is stored on Google Firebase infrastructure (Firestore, Firebase Storage, Firebase Auth) hosted in the United States. Firebase App Check is enabled to help prevent unauthorized access. Firestore and Storage security rules restrict data access to authorized operations only. All data transmission uses HTTPS encryption.</p>
 
-      <div class="section">
-        <h2>Content Moderation</h2>
-        <p>User-submitted content (comments, dish names, restaurant names, display names, and photos) is subject to automated moderation including keyword filtering and image analysis. Content that violates community standards may be rejected or removed. Repeated violations may result in temporary or permanent account restrictions.</p>
-      </div>
+<h2>Third-Party Services</h2>
+<p>iCrave uses the following third-party services:</p>
+<ul>
+  <li>Firebase Authentication &mdash; account management</li>
+  <li>Firebase Firestore &mdash; data storage</li>
+  <li>Firebase Storage &mdash; image storage</li>
+  <li>Google Analytics for Firebase (GA4) &mdash; pseudonymous, advertising-free usage analytics</li>
+  <li>Google Cloud Vision &mdash; automated image moderation (user-uploaded photos are scanned for inappropriate content)</li>
+  <li>Sentry &mdash; crash reporting and error monitoring</li>
+  <li>Google Play / Apple App Store &mdash; app distribution</li>
+</ul>
+<p>No advertising networks or ad SDKs are used, no advertising identifiers are collected, and no user data is sold to or shared with advertisers.</p>
 
-      <div class="section">
-        <h2>Data Retention</h2>
-        <p>Your account data and contributions are retained as long as your account is active. You may request deletion of your account and associated data by contacting us at the email below.</p>
-      </div>
+<h2>Order Links</h2>
+<p>The App provides links to third-party services (UberEats, DoorDash, OpenTable) for ordering or reservations. Tapping these links opens the respective third-party app or website. iCrave does not process orders or reservations and is not responsible for third-party privacy practices.</p>
 
-      <div class="section">
-        <h2>Children's Privacy</h2>
-        <p>iCrave is not directed at children under the age of 13 and does not knowingly collect personal information from children.</p>
-      </div>
+<h2>Content Moderation</h2>
+<p>User-submitted content (comments, dish names, restaurant names, display names, and photos) is subject to automated moderation including keyword filtering and image analysis. Content that violates community standards may be rejected or removed. Repeated violations may result in temporary or permanent account restrictions.</p>
 
-      <div class="section">
-        <h2>Your Rights</h2>
-        <p>You may request access to, correction of, or deletion of your personal data at any time by contacting us. California residents may exercise additional rights under the CCPA by contacting us at the email below.</p>
-      </div>
+<h2>Data Retention and Deletion</h2>
+<p>Your account data and contributions are retained as long as your account is active. You can delete your account and associated personal data directly in the App (Profile &rarr; Delete Account). When you delete your account, your profile and personal data are removed; dish contributions may remain in the public catalog in anonymized form (no longer linked to you) so that community ratings and discovery are not disrupted. You may also request deletion by contacting us at the email below.</p>
 
-      <div class="section">
-        <h2>Changes to This Privacy Policy</h2>
-        <p>If the functionality of the App changes in a way that affects user privacy, this policy will be updated accordingly. Continued use of the App after any changes constitutes acceptance of the updated policy.</p>
-      </div>
+<h2>Children&rsquo;s Privacy</h2>
+<p>iCrave is not directed at children under the age of 13 and does not knowingly collect personal information from children.</p>
 
-      <div class="section">
-        <h2>Contact</h2>
-        <p>If you have questions about this Privacy Policy, you may contact the developer at: <a href="mailto:support@icravehq.com">support@icravehq.com</a></p>
-        <p>Mailing address: Wellglory LLC, 1821 S Bascom Ave, Box 452, Campbell, CA 95008</p>
-      </div>
-    </main>
+<h2>Your Rights</h2>
+<p>You may request access to, correction of, or deletion of your personal data at any time by contacting us. California residents may exercise additional rights under the CCPA by contacting us at the email below.</p>
 
-    <footer>
-      <span>&copy; 2026 Wellglory LLC. All rights reserved.</span>
-      <div class="footer-links">
-        <a href="/">Home</a>
-        <a href="/terms">Terms</a>
-        <a href="/support">Support</a>
-      </div>
-    </footer>
+<h2>Changes to This Privacy Policy</h2>
+<p>If the functionality of the App changes in a way that affects user privacy, this policy will be updated accordingly. Continued use of the App after any changes constitutes acceptance of the updated policy.</p>
+
+<h2>Contact</h2>
+<p>If you have questions about this Privacy Policy, you may contact the developer at: <a href="mailto:support@icravehq.com" style="color:var(--or);text-decoration:none">support@icravehq.com</a></p>
+<p>Mailing address: Wellglory LLC, 1821 S Bascom Ave, Box 452, Campbell, CA 95008</p>
+<p>&copy; 2026 Wellglory LLC. All rights reserved.</p>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+    <a href="/support">Support</a>
   </div>
+  <div class="footer-copy">&copy; 2026 Wellglory LLC</div>
+</footer>
+
 </body>
 </html>
